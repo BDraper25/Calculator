@@ -12,3 +12,9 @@ body {
     background-color: #1e1e2e;
     font-family: Arial, sans-serif;
 }
+
+.calculator {
+    width: 340px;
+    padding: 20px;
+    background-color: #313244;
+}
