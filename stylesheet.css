@@ -109,3 +109,7 @@ button:active {
 .equals:hover {
     background-color: #94e2d5;
 }
+
+.number-zero {
+    flex: 2;
+}
