@@ -48,3 +48,8 @@ body {
     font-weight: bold;
     overflow-wrap: anywhere;
 }
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
