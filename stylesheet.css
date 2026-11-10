@@ -36,3 +36,9 @@ body {
 
     overflow: hidden;
 }
+
+.previous-operand {
+    color: #a6adc8;
+    font-size: 18px;
+    min-height: 22px;
+}
