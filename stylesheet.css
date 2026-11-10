@@ -100,3 +100,8 @@ button:active {
 .operator:hover {
     background-color: #b4befe;
 }
+
+.equals {
+    background-color: #a6e3a1;
+    color: #181825;
+}
