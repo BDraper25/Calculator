@@ -91,3 +91,8 @@ button:active {
 .delete:hover {
     background-color: #eba0ac;
 }
+
+.operator {
+    background-color: #89b4fa;
+    color: #181825;
+}
