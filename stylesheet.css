@@ -81,3 +81,8 @@ button:active {
     transform: scale(0.95);
 }
 
+.clear,
+.delete {
+    background-color: #f38ba8;
+    color: #181825;
+}
