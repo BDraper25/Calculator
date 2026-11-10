@@ -72,3 +72,7 @@ button {
     color: white;
     transition: background-color 0.2s, transform 0.1s;
 }
+
+button:hover {
+    background-color: #585b70;
+}
