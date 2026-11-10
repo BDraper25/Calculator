@@ -81,6 +81,10 @@ button:active {
     transform: scale(0.95);
 }
 
+.clear {
+    flex: 2;
+}
+
 .clear,
 .delete {
     background-color: #f38ba8;
