@@ -86,3 +86,8 @@ button:active {
     background-color: #f38ba8;
     color: #181825;
 }
+
+.clear:hover,
+.delete:hover {
+    background-color: #eba0ac;
+}
