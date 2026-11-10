@@ -96,3 +96,7 @@ button:active {
     background-color: #89b4fa;
     color: #181825;
 }
+
+.operator:hover {
+    background-color: #b4befe;
+}
