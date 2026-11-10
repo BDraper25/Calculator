@@ -42,3 +42,9 @@ body {
     font-size: 18px;
     min-height: 22px;
 }
+
+.current-operand {
+    font-size: 36px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
