@@ -18,4 +18,5 @@ operatorButtons.forEach(button => {
     });
 });
 
-
+const numberButtons = document.querySelectorAll('.number');
+const zeroNumButton = document.querySelector('.number-zero');
