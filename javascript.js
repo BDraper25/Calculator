@@ -15,7 +15,6 @@ operatorButtons.forEach(button => {
         } else if (button.textContent === "-") {
             console.log("Subtract")
         }
-        console.log(button.textContent)
     });
 });
 
