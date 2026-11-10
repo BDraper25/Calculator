@@ -62,4 +62,6 @@ body {
 
 button {
     flex: 1;
+    height: 60px;
+    border: none;
 }
