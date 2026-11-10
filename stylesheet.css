@@ -17,4 +17,14 @@ body {
     width: 340px;
     padding: 20px;
     background-color: #313244;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.display {
+    min-height: 100px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #181825;
+    color: white;
 }
