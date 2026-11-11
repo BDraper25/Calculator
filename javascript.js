@@ -13,21 +13,25 @@ operatorButtons.forEach(button => {
         if (button.textContent === 'x') {
             operator = '*';
             previousNumber = currentNumber;
+            previousOperand.textContent = previousNumber;
             currentNumber = '';
             console.log("Multiply")
         } else if (button.textContent === '÷') {
             operator = '/';
             previousNumber = currentNumber;
+            previousOperand.textContent = previousNumber;
             currentNumber = '';
             console.log("Divide")
         } else if (button.textContent === "+") {
             operator = button.textContent;
             previousNumber = currentNumber;
+            previousOperand.textContent = previousNumber;
             currentNumber = '';
             console.log("Add")
         } else if (button.textContent === "-") {
             operator = button.textContent;
             previousNumber = currentNumber;
+            previousOperand.textContent = previousNumber;
             currentNumber = '';
             console.log("Subtract")
         }
