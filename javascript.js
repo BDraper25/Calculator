@@ -4,6 +4,10 @@ const currentOperand = document.querySelector('.current-operand');
 
 const operatorButtons = document.querySelectorAll('.operator');
 
+let operator = '';
+let currentNumber = '';
+let previousNumber = '';
+
 operatorButtons.forEach(button => {
     button.addEventListener('click', () => {
         if (button.textContent === 'x') {
@@ -44,8 +48,6 @@ numberButtons.forEach(button => {
     });
 });
 
-let operator = '';
-
 const add = function(a, b) {
   return a + b;
 };
@@ -61,7 +63,4 @@ const multiply = function(a, b) {
 const divide = function(a, b) {
     return a / b;
 };
-
-let currentNumber = '';
-let previousNumber = '';
 
