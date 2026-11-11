@@ -27,6 +27,7 @@ const deleteButton = document.querySelector('.delete');
 numberButtons.forEach(button => {
     button.addEventListener('click', () => {
         currentNumber += button.textContent;
+        currentOperand.textContent = currentNumber;
         console.log(button.textContent);
     });
 });
@@ -52,4 +53,3 @@ const divide = function(a, b) {
 let currentNumber = '';
 let previousNumber = '';
 
-currentOperand.textContent = currentNumber;
