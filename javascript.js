@@ -7,6 +7,9 @@ const operatorButtons = document.querySelectorAll('.operator');
 operatorButtons.forEach(button => {
     button.addEventListener('click', () => {
         if (button.textContent === 'x') {
+            operator = '*';
+            previousNumber = currentNumber;
+            currentNumber = '';
             console.log("Multiply")
         } else if (button.textContent === '÷') {
             console.log("Divide")
