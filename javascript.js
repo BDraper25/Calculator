@@ -48,3 +48,6 @@ const divide = function(a, b) {
     return a / b;
 };
 
+let currentNumber = '';
+let previousNumber = '';
+
