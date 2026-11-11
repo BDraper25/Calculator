@@ -52,3 +52,4 @@ const divide = function(a, b) {
 let currentNumber = '';
 let previousNumber = '';
 
+currentOperand.textContent = currentNumber;
