@@ -26,6 +26,7 @@ const deleteButton = document.querySelector('.delete');
 
 numberButtons.forEach(button => {
     button.addEventListener('click', () => {
+        currentNumber += button.textContent;
         console.log(button.textContent);
     });
 });
