@@ -25,3 +25,9 @@ const decimalButton = document.querySelector('.decimal');
 const clearButton = document.querySelector('.clear');
 const deleteButton = document.querySelector('.delete');
 
+numberButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        console.log(button.textContent);
+    });
+});
+
