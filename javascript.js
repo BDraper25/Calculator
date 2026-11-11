@@ -19,7 +19,6 @@ operatorButtons.forEach(button => {
 });
 
 const numberButtons = document.querySelectorAll('.number');
-const zeroNumButton = document.querySelector('.number-zero');
 const equalButton = document.querySelector('.equals');
 const decimalButton = document.querySelector('.decimal');
 const clearButton = document.querySelector('.clear');
