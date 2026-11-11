@@ -12,10 +12,19 @@ operatorButtons.forEach(button => {
             currentNumber = '';
             console.log("Multiply")
         } else if (button.textContent === '÷') {
+            operator = '/';
+            previousNumber = currentNumber;
+            currentNumber = '';
             console.log("Divide")
         } else if (button.textContent === "+") {
+            operator = button.textContent;
+            previousNumber = currentNumber;
+            currentNumber = '';
             console.log("Add")
         } else if (button.textContent === "-") {
+            operator = button.textContent;
+            previousNumber = currentNumber;
+            currentNumber = '';
             console.log("Subtract")
         }
     });
