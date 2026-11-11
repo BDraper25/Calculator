@@ -30,3 +30,6 @@ numberButtons.forEach(button => {
     });
 });
 
+let operator = '';
+
+
