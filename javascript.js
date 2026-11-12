@@ -75,5 +75,6 @@ equalButton.addEventListener('click', () => {
     } else if (operator === '-') {
         result = subtract(previousNumber, currentNumber);
     };
+    currentOperand.textContent = result;
 })
 
