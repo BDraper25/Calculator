@@ -62,7 +62,7 @@ operatorButtons.forEach(button => {
 });
 
 equalButton.addEventListener('click', () => {
-    calculation();
+    let result = calculation();
     currentNumber = String(result);
     currentOperand.textContent = currentNumber;
     previousOperand.textContent = '';
