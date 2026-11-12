@@ -65,13 +65,13 @@ equalButton.addEventListener('click', () => {
     currentNumber = Number(currentNumber);
     previousNumber = Number(previousNumber);
     
-    if (operator = '*') {
+    if (operator === '*') {
         multiply(previousNumber, currentNumber);
-    } else if (operator = '/') {
+    } else if (operator === '/') {
         divide(previousNumber, currentNumber);
-    } else if (operator = '+') {
+    } else if (operator === '+') {
         add(previousNumber, currentNumber);
-    } else if (operator = '-') {
+    } else if (operator === '-') {
         subtract(previousNumber, currentNumber);
     };
 })
