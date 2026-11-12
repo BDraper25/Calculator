@@ -61,5 +61,8 @@ operatorButtons.forEach(button => {
     });
 });
 
+equalButton.addEventListener('click', () => {
+    
 
+})
 
