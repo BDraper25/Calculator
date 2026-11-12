@@ -62,7 +62,8 @@ operatorButtons.forEach(button => {
 });
 
 equalButton.addEventListener('click', () => {
-    
+    currentNumber = Number(currentNumber);
+    previousNumber = Number(previousNumber);
 
 })
 
