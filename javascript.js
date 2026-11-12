@@ -64,6 +64,7 @@ operatorButtons.forEach(button => {
 equalButton.addEventListener('click', () => {
     currentNumber = Number(currentNumber);
     previousNumber = Number(previousNumber);
+    let result;
     
     if (operator === '*') {
         multiply(previousNumber, currentNumber);
