@@ -81,3 +81,10 @@ equalButton.addEventListener('click', () => {
     operator = '';
 })
 
+clearButton.addEventListener('click', () => {
+    operator = '';
+    currentNumber = '';
+    previousNumber = '';
+    previousOperand.textContent = '';
+    currentOperand.textContent = '0';
+})
