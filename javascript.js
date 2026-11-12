@@ -78,5 +78,6 @@ equalButton.addEventListener('click', () => {
     currentNumber = String(result);
     currentOperand.textContent = currentNumber;
     previousOperand.textContent = '';
+    operator = '';
 })
 
