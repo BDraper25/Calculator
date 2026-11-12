@@ -103,4 +103,5 @@ const calculation = function() {
     } else if (operator === '-') {
         result = subtract(previousNumber, currentNumber);
     };
+    return result;
 };
