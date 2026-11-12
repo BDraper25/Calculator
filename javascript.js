@@ -14,6 +14,23 @@ const decimalButton = document.querySelector('.decimal');
 const clearButton = document.querySelector('.clear');
 const deleteButton = document.querySelector('.delete');
 
+const add = function(a, b) {
+  return a + b;
+};
+
+const subtract = function(a, b) {
+	return a - b;
+};
+
+const multiply = function(a, b) {
+    return a * b;
+};
+
+const divide = function(a, b) {
+    return a / b;
+};
+
+
 numberButtons.forEach(button => {
     button.addEventListener('click', () => {
         currentNumber += button.textContent;
@@ -44,19 +61,5 @@ operatorButtons.forEach(button => {
     });
 });
 
-const add = function(a, b) {
-  return a + b;
-};
 
-const subtract = function(a, b) {
-	return a - b;
-};
-
-const multiply = function(a, b) {
-    return a * b;
-};
-
-const divide = function(a, b) {
-    return a / b;
-};
 
