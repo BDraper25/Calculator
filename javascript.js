@@ -62,19 +62,6 @@ operatorButtons.forEach(button => {
 });
 
 equalButton.addEventListener('click', () => {
-    currentNumber = Number(currentNumber);
-    previousNumber = Number(previousNumber);
-    let result;
-    
-    if (operator === '*') {
-        result = multiply(previousNumber, currentNumber);
-    } else if (operator === '/') {
-        result = divide(previousNumber, currentNumber);
-    } else if (operator === '+') {
-        result = add(previousNumber, currentNumber);
-    } else if (operator === '-') {
-        result = subtract(previousNumber, currentNumber);
-    };
     currentNumber = String(result);
     currentOperand.textContent = currentNumber;
     previousOperand.textContent = '';
