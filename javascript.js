@@ -42,6 +42,13 @@ numberButtons.forEach(button => {
     });
 });
 
+decimalButton.addEventListener('click', () => {
+    if (!currentNumber.includes('.')) {
+        currentNumber += '.';
+        currentOperand.textContent = currentNumber;
+    };
+});
+
 operatorButtons.forEach(button => {
     button.addEventListener('click', () => {
         if (operator !== '' && currentNumber !== '') {
