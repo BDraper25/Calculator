@@ -41,6 +41,11 @@ numberButtons.forEach(button => {
 
 operatorButtons.forEach(button => {
     button.addEventListener('click', () => {
+        if (operator !== '' && currentNumber !== '') {
+            let result = calculation();
+            previousNumber = String(result);
+        };
+        
         if (button.textContent === 'x') {
             operator = '*';
             console.log("Multiply")
