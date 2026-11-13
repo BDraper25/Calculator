@@ -27,6 +27,9 @@ const multiply = function(a, b) {
 };
 
 const divide = function(a, b) {
+    if (b === 0) {
+        return "Cannot divide by zero";
+    }
     return a / b;
 };
 
@@ -45,7 +48,7 @@ operatorButtons.forEach(button => {
             let result = calculation();
             previousNumber = String(result);
         } else {
-             previousNumber = currentNumber;
+            previousNumber = currentNumber;
         }
         if (button.textContent === 'x') {
             operator = '*';
