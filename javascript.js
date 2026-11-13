@@ -95,6 +95,9 @@ clearButton.addEventListener('click', () => {
 const calculation = function() {
     currentNumber = Number(currentNumber);
     previousNumber = Number(previousNumber);
+    if (operator === '/' && currentNumber === 0) {
+        return null;
+    };
     let result;
     
     if (operator === '*') {
