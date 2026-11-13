@@ -67,7 +67,7 @@ equalButton.addEventListener('click', () => {
     currentOperand.textContent = currentNumber;
     previousOperand.textContent = '';
     operator = '';
-})
+});
 
 clearButton.addEventListener('click', () => {
     operator = '';
@@ -75,7 +75,7 @@ clearButton.addEventListener('click', () => {
     previousNumber = '';
     previousOperand.textContent = '';
     currentOperand.textContent = '0';
-})
+});
 
 const calculation = function() {
     currentNumber = Number(currentNumber);
