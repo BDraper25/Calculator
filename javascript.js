@@ -53,6 +53,16 @@ operatorButtons.forEach(button => {
     button.addEventListener('click', () => {
         if (operator !== '' && currentNumber !== '') {
             let result = calculation();
+
+            if (result === null) {
+                currentOperand.textContent = 'Cannot divide by zero';
+                currentNumber = '';
+                previousNumber = '';
+                operator = '';
+                previousOperand.textContent = '';
+                return;
+            };
+            
             previousNumber = String(result);
         } else {
             previousNumber = currentNumber;
