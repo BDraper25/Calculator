@@ -49,6 +49,16 @@ decimalButton.addEventListener('click', () => {
     };
 });
 
+deleteButton.addEventListener('click', () => {
+    currentNumber = currentNumber.slice(0, -1);
+
+    if (currentNumber === '') {
+        currentOperand.textContent = '0';
+    } else {
+        currentOperand.textContent = currentNumber;
+    }
+});
+
 operatorButtons.forEach(button => {
     button.addEventListener('click', () => {
         if (operator !== '' && currentNumber !== '') {
@@ -62,7 +72,7 @@ operatorButtons.forEach(button => {
                 previousOperand.textContent = '';
                 return;
             };
-            
+
             previousNumber = String(result);
         } else {
             previousNumber = currentNumber;
