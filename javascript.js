@@ -44,8 +44,9 @@ operatorButtons.forEach(button => {
         if (operator !== '' && currentNumber !== '') {
             let result = calculation();
             previousNumber = String(result);
-        };
-        
+        } else {
+             previousNumber = currentNumber;
+        }
         if (button.textContent === 'x') {
             operator = '*';
             console.log("Multiply")
@@ -59,7 +60,6 @@ operatorButtons.forEach(button => {
             operator = button.textContent;
             console.log("Subtract")
         };
-        previousNumber = currentNumber;
         previousOperand.textContent = `${previousNumber} ${operator}`;
         currentNumber = '';
         currentOperand.textContent = currentNumber;
